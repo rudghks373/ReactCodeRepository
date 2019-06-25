@@ -1,2 +1,0 @@
-# ReactCodeRepository
-Created with CodeSandbox
