@@ -11,19 +11,15 @@ class intro extends React.Component {
             <a href="https://twitter.com/ajlkn">@ajlkn</a> /{" "}
             <a href="https://html5up.net">HTML5 UP</a>
           </p>
-          <ul class="actions">
+          <ul className="actions">
             <li>
-              <a href="#first" class="arrow scrolly">
-                <span class="label">Next</span>
+              <a href="#first" className="arrow scrolly">
+                <span className="label">Next</span>
               </a>
             </li>
           </ul>
         </header>
-        <div class="content">
-          <span class="image fill" data-position="center">
-            <img src="images/pic01.jpg" alt="" />
-          </span>
-        </div>
+        d
       </div>
     );
   }

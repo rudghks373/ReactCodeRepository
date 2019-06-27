@@ -7,7 +7,7 @@ class frist extends React.Component {
         <header>
           <h2>Magna sed nullam nisl adipiscing</h2>
         </header>
-        <div class="content">
+        <div className="content">
           <p>
             <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
             elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
@@ -17,8 +17,8 @@ class frist extends React.Component {
             consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
             dolor libero, feugiat magna tempus, sed et lorem adipiscing.
           </p>
-          <span class="image main">
-            <img src="images/pic02.jpg" alt="" />
+          <span className="image main">
+            <img src="../images/pic02.jpg" alt="" />
           </span>
         </div>
       </div>

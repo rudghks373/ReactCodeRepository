@@ -1,13 +1,11 @@
 import React from "react";
-import Intro from "./intro";
-import Frist from "./frist";
+import Mainbody from "./mainbody";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Intro />
-        <Frist />
+        <Mainbody />
       </div>
     );
   }
