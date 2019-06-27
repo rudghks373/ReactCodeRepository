@@ -1,9 +1,15 @@
-import React, { Component } from "react";
-import intro from "./intro";
+import React from "react";
+import Intro from "./intro";
+import Frist from "./frist";
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return <intro />;
+    return (
+      <div>
+        <Intro />
+        <Frist />
+      </div>
+    );
   }
 }
 export default App;
