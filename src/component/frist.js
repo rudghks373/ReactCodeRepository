@@ -18,7 +18,7 @@ class frist extends React.Component {
             dolor libero, feugiat magna tempus, sed et lorem adipiscing.
           </p>
           <span className="image main">
-            <img src="../images/pic02.jpg" alt="" />
+            <img src="../assets/images/pic01.jpg" alt="" />
           </span>
         </div>
       </div>
