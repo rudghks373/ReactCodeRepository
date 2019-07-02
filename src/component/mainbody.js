@@ -1,13 +1,18 @@
 import React from "react";
-import Copyright from "./copyright";
-import Wrapper from "./wrapper";
+import Preloader from "./preloader";
+import Nav from "./nav";
+import Boxintro from "./boxintro";
+import bootstrap from "react-bootstrap";
+import $ from "jquery";
 
 class mainbody extends React.Component {
+  componentDidMount() {}
   render() {
     return (
-      <div className="mainbody">
-        <Wrapper />
-        <Copyright />
+      <div className="container-fluid" style={bootstrap}>
+        <Nav />
+        <Preloader />
+        <Boxintro />
       </div>
     );
   }

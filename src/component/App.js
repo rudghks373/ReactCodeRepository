@@ -1,6 +1,5 @@
 import React from "react";
 import Mainbody from "./mainbody";
-import "../assets/sass/main.scss";
 
 class App extends React.Component {
   render() {
